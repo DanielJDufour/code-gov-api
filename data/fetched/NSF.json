@@ -7,7 +7,7 @@
       "description": "A useful set of common Ember JavaScript components used at NSF which include DataGrid, Tool Tips, Calendar Widgets, and more.",
       "license": "https://www.nsf.gov/digitalstrategy/Alternative_Analysis_Report_Template_Process.pdf",
       "openSourceProject": 1,
-      "governmentWideReuseProject": 1,
+      "governmentWideReuseProject": 0,
       "tags": [
         "javascript",
         "government",
@@ -24,7 +24,32 @@
       "vcs": "git",
       "repository": "https://github.com/nsf-open/nsf-common-ember-components",
       "languages": [
-        "javascript"
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "nsf-ember-tooltip",
+      "description": "An ember-cli addon for using Tooltipster in Ember applications. The default sideTip, and the ScrollableTip plugins come preconfigured.",
+      "license": "https://www.nsf.gov/digitalstrategy/Alternative_Analysis_Report_Template_Process.pdf",
+      "openSourceProject": 1,
+      "governmentWideReuseProject": 1,
+      "tags": [
+        "javascript",
+        "government",
+        "ember",
+        "common",
+        "nsf"
+      ],
+      "contact": {
+        "email": "esivagna@nsf.gov",
+        "name": "Elanchezhian Sivagnanam",
+        "phone": "7032928088"
+      },
+      "status": "Beta",
+      "vcs": "git",
+      "repository": "https://github.com/nsf-open/nsf-ember-tooltip",
+      "languages": [
+        "JavaScript"
       ]
     },
     {
@@ -333,7 +358,7 @@
       "name": "system-advisory-service",
       "description": "The System Advisory Service is used to display System Advisories on the MyNSF system. This does not limit it to MyNSF. The Service itself is generic and allows for namespacing if other teams wish to use the service.",
       "license": "https://www.nsf.gov/digitalstrategy/Alternative_Analysis_Report_Template_Process.pdf",
-      "openSourceProject": 0,
+      "openSourceProject": 1,
       "governmentWideReuseProject": 0,
       "tags": [
         "java",
@@ -349,6 +374,64 @@
         "name": "Elanchezhian Sivagnanam",
         "phone": "7032928088"
       },
+      "repository": "https://github.com/nsf-open/rest-service-system-advisory",
+      "status": "Beta",
+      "vcs": "git",
+      "languages": [
+        "Java"
+      ]
+    },
+    {
+      "name": "email-service",
+      "description": "Send, Store and Search system generated emails.",
+      "license": "https://www.nsf.gov/digitalstrategy/Alternative_Analysis_Report_Template_Process.pdf",
+      "openSourceProject": 1,
+      "governmentWideReuseProject": 0,
+      "tags": [
+        "java",
+        "government",
+        "microservice",
+        "nsf",
+        "mynsf",
+        "features",
+        "shared"
+      ],
+      "contact": {
+        "email": "esivagna@nsf.gov",
+        "name": "Elanchezhian Sivagnanam",
+        "phone": "7032928088"
+      },
+      "repository": "https://github.com/nsf-open/rest-service-email",
+      "status": "Beta",
+      "vcs": "git",
+      "languages": [
+        "Java"
+      ]
+    },
+    {
+      "name": "inbox-service",
+      "description": "Inbox Service is enables system messages to be displayed on the MyNSF home page. This service is not related to emails.",
+      "license": "https://www.nsf.gov/digitalstrategy/Alternative_Analysis_Report_Template_Process.pdf",
+      "openSourceProject": 1,
+      "governmentWideReuseProject": 0,
+      "tags": [
+        "java",
+        "email",
+        "government",
+        "microservice",
+        "nsf",
+        "mynsf",
+        "features",
+        "shared"
+      ],
+      "contact": {
+        "email": "esivagna@nsf.gov",
+        "name": "Elanchezhian Sivagnanam",
+        "phone": "7032928088"
+      },
+      "repository": "https://github.com/nsf-open/rest-service-inbox",
+      "status": "Beta",
+      "vcs": "git",
       "languages": [
         "Java"
       ]
@@ -381,7 +464,7 @@
       "name": "toggle-service",
       "description": "The Toggle Service will return available feature toggles for a particular user (based off SSO).",
       "license": "https://www.nsf.gov/digitalstrategy/Alternative_Analysis_Report_Template_Process.pdf",
-      "openSourceProject": 0,
+      "openSourceProject": 1,
       "governmentWideReuseProject": 0,
       "tags": [
         "java",
@@ -397,6 +480,9 @@
         "name": "Elanchezhian Sivagnanam",
         "phone": "7032928088"
       },
+      "repository": "https://github.com/nsf-open/rest-service-toggle",
+      "status": "Beta",
+      "vcs": "git",
       "languages": [
         "Java"
       ]

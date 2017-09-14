@@ -192,11 +192,7 @@ if (require.main === module) {
   const numDays = 10;
 
   IndexCleaner.init(ElasticsearchAdapter, reposAlias, numDays, (err)=> {
-    if (err) {
-      Logger.error("Errors Occurred: " + err);
-    } else {
-      Logger.info("Cleaning Completed.");
-    }
+   
   });
 }
 
