@@ -83,7 +83,7 @@
   "website": "https://dhs.gov",
   "codeUrl": "https://dhs.gov/code.json",
   "requirements": {
-    "agencyWidePolicy": 0,
+    "agencyWidePolicy": 0.5,
     "openSourceRequirement":0,
     "inventoryRequirement":0
   }

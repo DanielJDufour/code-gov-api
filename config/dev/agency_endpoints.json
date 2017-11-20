@@ -72,7 +72,7 @@
   "website": "https://www.dhs.gov",
   "codeUrl": "/data/fallback/DHS.json",
   "requirements": {
-    "agencyWidePolicy": 0,
+    "agencyWidePolicy": 0.5,
     "openSourceRequirement":0,
     "inventoryRequirement":0
   }
